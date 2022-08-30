@@ -1,0 +1,28 @@
+table,div {
+    /* Reglas    */
+    border: 1px solid pink;
+}
+th {   
+    border: 1px solid black
+}
+td{ 
+    border: 1px solid green;
+}
+.hi {
+    /* no quiero boder wey :3 */
+    border: non;  
+    color: purple;
+    font-size: 2cm;
+}
+.howareU{
+    border: 10px dotted gray;
+    background-color: aqua;
+    color: grey;
+    font-size: 1rem;
+}
+#id_container{
+    width: 60vw;
+    height: 100vh;
+    border: 10px dotted blueviolet;
+    background-color: fuchsia;
+}

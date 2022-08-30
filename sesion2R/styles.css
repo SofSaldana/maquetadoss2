@@ -1,0 +1,33 @@
+ /* table,th,td,div{ */
+    /* Reglas CSS */  
+    /* border: 1px solid black;
+ }   */
+  
+/* .hi{  */
+   /* no quiero borde woe  */ 
+   /* border: none;
+   color: purple;
+   font-size: 2cm ;
+}
+
+.howareU{
+   border: 1px dotted gray;
+   background-color: aqua ;
+   color: brown;
+   font-size: 1rem;
+}
+
+#id_container{
+   border: 10px   solid blue;
+   width: 30v;
+   height: 100vh;
+   background-color:orange;
+}
+
+ 
+.div__Lord-of-the-Rings--gree >*{
+   background-color: hotpink; */
+/* } */
+#legolas ol.ol__movies--bold>li[title="movie"]{
+   font-weight: bold;
+}
