@@ -67,3 +67,6 @@ body{
 .form__login > .input__password + .button__submit{
     box-shadow: 10px 5px 5px rgb(183,183,183,15);
 }
+.form__login button:last-child{
+    border: 1px solid black
+}
