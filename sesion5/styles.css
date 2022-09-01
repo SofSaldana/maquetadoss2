@@ -38,10 +38,10 @@ h1{
     cursor: pointer;
 }
 .button__linear--blue{
-    background-color: blue
+    background-color: blue;
     transition-timing-function: linear;
 }
-.button__linear--blue :hover{
+.button__linear--blue:hover{
     width: 240px;
 }
 .button__ease-in--green{
@@ -66,4 +66,60 @@ h1{
 }
 .button__ease-out--yellow{
     width: 240px;
+}
+/* 0 --> 599 px */
+/* @media only screen and (max-width:600px){
+    body{
+        background-color: aqua;
+    }
+} */
+/* 600px --> 768px */
+/* @media only screen and (min-width: 600px){
+    body{
+        background-color: turquoise;
+    }
+} */
+/* 769px --> 992px */
+/* @media only screen and (min-width: 768px){
+    body{
+        background-color: greenyellow;
+    }
+} */
+/* 993px-->1200 */
+/* @media only screen and (min-width: 992px){
+    body{
+        background-color: hotpink;
+    }
+} */
+/* 1200px --> ... */
+/* @media only screen and (min-width: 1200px){
+    body{
+        background-color: blue;
+    }
+} */
+
+/* body{
+    background-color: black;
+} */
+.div__Card--border-black{
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+}
+@media only screen and (max-width: 600px){
+    .div__Card--border-black{
+        display: none;
+    }
+    .button__key-frames--hotpink{
+        width: 90px;
+        height: 60px;
+        font-size: 8px;
+    }
+}
+@media only screen and (min-width: 758){
+    .div__Card--border-black{
+        background-color: hotpink;
+    }
 }
